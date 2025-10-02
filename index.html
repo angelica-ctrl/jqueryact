@@ -42,9 +42,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     font-weight: 600;
     color: #4a3b36;
   }
-  .btn-peach:hover {
-    opacity: 0.9;
-  }
   .nav-tabs .nav-link.active {
     background-color: #ffbfa9;
     color: #4a3b36;
@@ -200,7 +197,7 @@ $("#registerForm").validate({
       email: "Use format: name@domain.com"
     },
     password: {
-      minlength: "Password must be at least 5 characters long"
+      minlength: "Password must be at least 5 characters"
     },
     confirm_password: {
       equalTo: "Passwords do not match"
