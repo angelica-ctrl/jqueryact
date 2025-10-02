@@ -150,7 +150,6 @@
   </footer>
 
   <script>
-    // Personalized welcome (from login)
     const params = new URLSearchParams(window.location.search);
     const user = params.get("user") || "Guest";
     document.getElementById("welcomeMsg").textContent = "Hello, " + user + "! Enjoy your meal with us.";
